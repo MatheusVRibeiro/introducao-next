@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -12,6 +14,22 @@ export default function Home() {
       <br />
 
       <div className="quadrado"></div>
+
+      <Image 
+      src={'/temp/arvore.jpg'} 
+      alt="Arvore" 
+      width={130} 
+      height={90} 
+
+      />
+
+      <Image 
+      src={'/temp/arvorepequena.jpg'} 
+      alt="Arvore" 
+      width={1300} 
+      height={900} 
+      
+      />
     </div>
   );
 }
