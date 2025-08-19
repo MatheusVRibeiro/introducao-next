@@ -14,7 +14,8 @@ export default function Sobre() {
       <br />
       <label>{numero}</label>
       <br />
-      <button type="button" 
+      <button 
+      type="button" 
       onClick={() => setNumero(numero + 1)}>
         Contar</button>
 
